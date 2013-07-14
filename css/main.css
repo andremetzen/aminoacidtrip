@@ -71,6 +71,15 @@ textarea {
 	color: #AE1B1B;
 }
 
+.button-share {
+	display: block;
+	background: url(../img/facebook_share_icon.gif) no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 50px;
+	height: 18px;
+}
+
 .wrapper {
 	width: 60%;
 	padding: 20px;

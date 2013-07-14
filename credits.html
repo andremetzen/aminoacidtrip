@@ -4,6 +4,10 @@
   <meta charset="utf-8">
   <title>Amino Acid Trip</title>
   <meta name="description" content="Protein to Music!">
+  <meta property="og:image" content="http://andremetzen.github.io/aminoacidtrip/img/logo_menor.png">
+  <meta property="og:title" content="Amino Acid Trip">
+  <meta property="og:url" content="http://aminoacidtrip.com">
+
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -17,6 +21,13 @@
 				<li><a href="credits.html">Créditos</a></li>
 				<li><a href="http://github.com/andremetzen/aminoacidtrip">Contribua no Github</a></li>
 				<li>Feito no <a href="http://sciencehackdayvitoria.tumblr.com/">Science Hack Day Vitória</a></li>
+				<li><a href="#" class="button-share" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+    return false;">
+  Compartilhar</a></li>
 			</ul>
 		</nav>
 
@@ -37,6 +48,18 @@
 	<div class="preview">
 
 	</div>
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42436867-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
