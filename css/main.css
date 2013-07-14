@@ -27,6 +27,18 @@ textarea {
 	color: #222;
 }
 
+.home .page-title {
+	display: block;
+	background: url(../img/logo-menor.png) no-repeat;
+	width: 280px;
+	height: 100px;
+	overflow: hidden;
+	text-indent: -9999px;
+	padding: 0;
+	float:right;
+
+}
+
 .menu {
 	margin: -20px -20px 0;
 	background: #eaeaea;
@@ -72,6 +84,7 @@ textarea {
 }
 
 .controls {
+	margin-top: 30px;
 }
 
 .controls button {
