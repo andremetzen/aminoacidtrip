@@ -1,0 +1,7 @@
+Trombina que age quebrando proteínas específicas em certos locais. Sua principal função é converter fibrinogênio em fibrina(proteína filamentar), realizando papel fundamental no processo de coagulação.
+A trombina é produzida da protrombina, que é essencialmente o estado inativo desta proteína. A protrombina é produzida no fígado. 
+
+
+http://pt.wikipedia.org/wiki/Trombina
+
+http://www.rcsb.org/pdb/101/motm.do?momID=25

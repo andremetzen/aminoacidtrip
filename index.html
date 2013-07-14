@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Amino Acid Trip</title>
+  <meta name="description" content="Protein to Music!">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="js/aminoacidtrip.js"></script>
+  <script src="js/database.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">Sobre</a></li>
+				<li><a href="">Créditos</a></li>
+				<li><a href="#">Contribua no Github</a></li>
+				<li>Feito no <a href="#">Science Hack Day Vitória</a></li>
+			</ul>
+		</nav>
+
+		<h1 class="page-title">Amino Acid Trip</h1>
+
+		<div class="controls">
+			<select id="available-proteins" class="protein-list">
+				<option selected disabled>Selecione uma proteína...</option>
+				<option disabled></option>
+				<option>Inserir nova proteína</option>
+			</select>
+			<button onclick="start();">Play</button>
+			<button onclick="stop();">Stop</button>
+		</div>
+
+		<div class="protein-info">
+			<h2 class="protein-name">Actina</h2>
+			<div class="protein-sequence">MPLLLRRFPSPSVVSSFFLRRSMASSTISSDIITPSNTKIGWIGTGVMGRSMCGHLIKAGYTVTVFNRTISKAQTLIDMGANVADSPNSVAEQSDVVFTIVGYPSDVRHVLLDPKSGALSGLRQGGVLVDMTTSEPSLAEEIAKAASFKNCFSIDAPVSGGDLGAKNGKLSIFAGGDETTVKRLDPLFSLMGKVNFMGTSGKGQFAKLANQITIASTMLGLVEGLIYAHKAGLDVKKFLEAISTGAAGSKSIDLYGDRILKRDFDPGFYVNHFVKDLGICLNECQRMGLALPGLALAQQLYLSLKAHGEGDLGTQALLLALERLNNVSVQSSDS</div>
+			<div class="description">
+				<p>Leggings tofu swag, bitters cliche occupy next level helvetica tattooed art party master cleanse jean shorts skateboard. Flexitarian fanny pack shoreditch flannel. Next level skateboard occupy, Vice sriracha Wes Anderson Godard craft beer blue bottle messenger bag mlkshk raw denim locavore post-ironic artisan. Shoreditch literally lo-fi wayfarers, pork belly bitters squid ethical letterpress leggings. Pickled organic hella, whatever asymmetrical beard viral chambray twee mlkshk mumblecore. Seitan fashion axe Bushwick, Godard sartorial locavore readymade salvia aesthetic fixie banh mi shoreditch. Letterpress locavore cardigan bicycle rights DIY selfies.</p>
+				<p>Asymmetrical trust fund post-ironic sustainable Carles beard. Shabby chic Etsy authentic you probably haven't heard of them brunch DIY. Dreamcatcher banh mi Williamsburg post-ironic 3 wolf moon craft beer. Bushwick sustainable trust fund art party narwhal shoreditch. Hoodie next level Terry Richardson leggings, fap viral PBR Carles. Swag kogi hella, next level tofu brunch ethnic you probably haven't heard of them retro roof party fixie Portland Vice Bushwick. Street art fixie authentic squid Marfa ethical.</p>
+			</div>
+			<ul class="links">
+				<li><a href="#">Wikipedia</a></li>
+				<li><a href="#">Outras informações</a></li>
+			</ul>
+		</div>
+
+		<div class="wrapper-instrument">
+			<label for="instrument-1">Instrument:</label> <select id="instrument-1" class="instrument">
+				<option value="8bitpad-2s">8bitpad-2s</option>
+				<option value="8bitbass-3oct-1s">8bitbass-3oct-1s</option>
+				<option value="8bit-3oct-2s">8bit-3oct-2s</option>
+			</select><br />
+			<textarea rows="5" cols="60" class="protein">MPLLLRRFPSPSVVSSFFLRRSMASSTISSDIITPSNTKIGWIGTGVMGRSMCGHLIKAGYTVTVFNRTISKAQTLIDMGANVADSPNSVAEQSDVVFTIVGYPSDVRHVLLDPKSGALSGLRQGGVLVDMTTSEPSLAEEIAKAASFKNCFSIDAPVSGGDLGAKNGKLSIFAGGDETTVKRLDPLFSLMGKVNFMGTSGKGQFAKLANQITIASTMLGLVEGLIYAHKAGLDVKKFLEAISTGAAGSKSIDLYGDRILKRDFDPGFYVNHFVKDLGICLNECQRMGLALPGLALAQQLYLSLKAHGEGDLGTQALLLALERLNNVSVQSSDS</textarea><br />
+		</div>
+		
+		<div class="wrapper-instrument">
+		<label for="instrument-2">Instrument:</label> <select id="instrument-2" class="instrument">
+			<option value="8bitpad-2s">8bitpad-2s</option>
+			<option  selected value="8bitbass-3oct-1s">8bitbass-3oct-1s</option>
+			<option value="8bit-3oct-2s">8bit-3oct-2s</option>
+		</select><br />
+		<textarea rows="5" cols="60" class="protein">MPLLLRRFPSPSVVSSFFLRRSMASSTISSDIITPSNTKIGWIGTGVMGRSMCGHLIKAGYTVTVFNRTISKAQTLIDMGANVADSPNSVAEQSDVVFTIVGYPSDVRHVLLDPKSGALSGLRQGGVLVDMTTSEPSLAEEIAKAASFKNCFSIDAPVSGGDLGAKNGKLSIFAGGDETTVKRLDPLFSLMGKVNFMGTSGKGQFAKLANQITIASTMLGLVEGLIYAHKAGLDVKKFLEAISTGAAGSKSIDLYGDRILKRDFDPGFYVNHFVKDLGICLNECQRMGLALPGLALAQQLYLSLKAHGEGDLGTQALLLALERLNNVSVQSSDS</textarea><br />
+		</div>
+		<!--
+		<div class="wrapper-instrument">
+		<label for="instrument-3">Instrument:</label> <select id="instrument-3" class="instrument">
+			<option value="8bitpad-2s">8bitpad-2s</option>
+			<option value="8bitbass-3oct-1s">8bitbass-3oct-1s</option>
+			<option selected value="8bit-3oct-2s">8bit-3oct-2s</option>
+		</select><br />
+		<textarea rows="5" cols="60" class="protein">MPGTKRFQHVIETPEPGKWELSGYEAAVPITEKSNPLTQDLDKADAENIVRLLGQCDAEIFQEEGQALSTYQRLYSESILTTMVQVAGKVQEVLKEPDGGLVVLSGGGTSGRMAFLMSVSFNQLMKGLGQKPLYTYLIAGGDRSVVASREGTEDSALHGIEELKKVAAGKKRVIVIGISVGLSAPFVAGQMDCCMNNTAVFLPVLVGFNPVSMARNDPIEDWSSTFRQVAERMQKMQEKQKAFVLNPAIGPEGLSGSSRMKGGSATKILLETLLLAAHKTVDQGIAASQRCLLEILRTFERAHQVTYSQSPKIATLMKSVSTSLEKKGHVYLVGWQTLGIIAIMDGVECIHTFGADFRDVRGFLIGDHSDMFNQKAELTNQGPQFTFSQEDFLTSILPSLTEIDTVVFIFTLDDNLTEVQTIVEQVKEKTNHIQALAHSTVGQTLPIPLKKLFPSIISITWPLLFFEYEGNFIQKFQRELSTKWVLNTVSTGAHVLLGKILQNHMLDLRISNSKLFWRALAMLQRFSGQSKARCIESLLRAIHFPQPLSDDIRAAPISCHVQVAHEKEQVIPIALLSLLFRCSITEAQAHLAAAPSVCEAVRSALAGPGQKRTADPLEILEPDVQ</textarea><br />
+		</div>
+		-->
+	</div>
+	<div class="preview">
+
+	</div>
+
+</body>
+</html>

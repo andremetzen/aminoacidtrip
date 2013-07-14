@@ -1,0 +1,45 @@
+AMINO ACID TRIP
+
+
+fase 1
+
+converter sequencias biológicas pré-estabelecidas (disponíveis em databases públicos) em alguma forma de som ou imagem.
+
+COMO FAZER ISSO?
+
+
+fase 2
+
+Javascript -> Ok, mas com falhas
+
+HTML -> Ok, em browsers! Samplers 8 bits ou MIDI?
+
+Desenvolver um site?
+
+
+fase 3
+
+Divulgação científica E DIVERSÃO!!
+
+E as imagens?
+
+jsbin.com na madrugada: E FEZ-SE A LUZ (OU AS CORES...)!
+
+
+
+fase 4
+
+SITE, proteínas default com informações primárias e links.
+
+Possibilidade de inserção de outras sequências.
+
+Open source
+
+
+
+CRÉDITOS:
+André
+Felipe
+Lucas
+Saulo
+Vitor

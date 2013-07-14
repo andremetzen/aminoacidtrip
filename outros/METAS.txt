@@ -1,0 +1,4 @@
+-definir padrões gráficos
+-definir proteínas default+infos OK
+-NOME
+-apresentação

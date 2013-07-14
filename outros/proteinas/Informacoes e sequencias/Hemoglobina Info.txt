@@ -1,0 +1,7 @@
+A hemoglobina é uma metaloproteína que contém ferro presente nos glóbulos vermelhos (eritrócitos) e que permite o transporte de oxigénio pelo sistema circulatório.
+É um tetrâmero composto de dois tipos de cadeias de globina. Existem duas cadeias de cada tipo, sendo que um deles contém 141 aminoácidos e o outro contém 146 aminoácidos. Cada cadeia proteica está ligada a um grupo heme; estes possuem um íon de ferro no seu centro, que forma seis ligações coordenadas: quatro com átomos de azoto do grupo planar de porfirina, uma a um átomo de azoto da proteína e outras a uma molécula de O2. É uma proteína alostérica, pois a ligação e a libertação do oxigénio é regulada por mudanças na estrutura provocadas pela própria ligação do oxigénio ao grupo heme.
+
+
+http://pt.wikipedia.org/wiki/Hemoglobina
+
+http://www.life-of-science.net/medicine/news/new-hemoglobin-type-discovered-causing-mock-diagnosis-of-cardiac-insufficiency.html

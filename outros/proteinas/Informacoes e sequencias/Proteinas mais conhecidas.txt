@@ -1,0 +1,14 @@
+colágeno,	CHECK
+actina,		CHECK
+miosina,	CHECK
+queratina,	CHECK
+fibrinogênio,	CHECK
+albumina,	CHECK
+trombina,	CHECK
+hemoglobina,	CHECK
+hemocianina,	CHECK
+elastina,	CHECK
+caderina,	CHECK
+seletina,	CHECK
+ocitocina,	CHECK
+integrina,	CHECK
